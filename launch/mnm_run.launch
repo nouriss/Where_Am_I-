@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- csosa_bot -->
+<launch>
+
+  <!-- Robot World Launch -->
+  <include file="$(find udacity_bot)/launch/mnm_world.launch"/>
+
+  <!-- AMCL Launch -->
+  <include file="$(find udacity_bot)/launch/mnm_amcl.launch"/>
+
+
+</launch>
